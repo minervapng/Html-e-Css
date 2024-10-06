@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+</head>
+<body>
+    <style>
+        @font-face {
+            font-family: 'lemommilk' ;
+            src: url('lemon_milk/LEMONMILK-Regular.otf');}
+        @font-face {
+            font-family: 'safari';
+            src: url('stencilla/stencilla.ttf');}
+
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #B0DBCC;
+            color: #000000;
+            font-family: 'lemommilk';
+
+        }
+        a {
+            color: #000000;
+            text-decoration: none;
+            padding: 7px 50px 7px 50px;
+            border-radius: 0px;
+            font-family: 'lemommilk';
+        }
+        header{
+            margin: 0;
+            padding: 0;
+            background-color: #ca4e25;
+            box-shadow: 0px 10px 15px black;
+        }
+        ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 3px;
+            padding: 20px;
+            background-color: #ca4e25;
+        }
+        .o {
+            border-radius: 30px;
+            font-size: 1.5em;
+        }
+        .o:hover {
+            background-color: #2A9C81;
+            font-size: 1.5em;
+            color: aliceblue;
+            transition: background-color 0.3s ease, color 0.3s  ease;
+        }
+        /* Aqui mostra aonde você está (S)*/
+        .home {
+            display: flex;
+            justify-content: center;
+            font-size: smaller;
+            padding: 8px;
+            background-color:#305C52 ;
+            color: white;
+        }
+
+
+        /*(E)*/
+        .circulado {
+            text-shadow: 2px 2px 0px black, -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black;
+        }
+        h1 {
+            font-family: 'safari';
+            color: #DC3800;
+            text-align:center;
+            margin: 10px;
+            padding: 10px;
+            padding-bottom: 10px;
+            font-size: 4em;
+            text-shadow: 2px 2px 0px rgb(2, 68, 6), -1px -1px 0px rgb(2, 68, 6), 1px -1px 0px rgb(2, 68, 6), -1px 1px 0px rgb(2, 68, 6); 
+            box-shadow: 0px 2px 0px black;
+        }
+        h2 {
+            margin-left: 30px;
+        }
+        p {
+            margin-left: 20px;
+            margin-right: 15px;
+            text-align: justify;
+            margin-bottom: 40px;
+        }
+        .conteiner {
+            overflow: auto;
+        }
+        .imagem {
+            width: 300px;
+            margin-left: 20px;
+            background-color: #86452F;
+            border: 3px solid #86452F;
+            box-shadow: 0 0 0 3px rgb(0, 0, 0);
+            border-radius: 3px;
+        }
+        div > ul {
+            display: none;
+            transition: opacity 0.9s ease, visibility 0s linear 0.9s;
+        }
+        div:hover > ul  {
+            display: flex;
+            transition: opacity 0.3s ease;
+        }
+
+    </style>
+    <header>
+        <div class="lista"><a class="home">Safari</a>
+        <ul>
+            <li><a href="" class="o">Safari</a></li>
+            <li><a href="" class="o">Macacos</a></li>
+            <li><a href="" class="o">Mapa</a></li>
+            <li><a href="" class="o">Sobre</a></li>
+        </ul>
+        </div>
+    </header>
+    <main>
+        <h1 class="circulado">Bem vindo ao Safari!!!</h1>
+        <div class="conteiner">
+            <h2>Aqui sua experiência selvagem é garantida</h2>
+            <p> &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas quibusdam voluptate ut autem magni ullam accusantium nostrum! Porro, enim, vel ut id doloribus hic laudantium accusantium dignissimos earum eos aperiam!<br></p>
+            <img class="imagem" src="https://www.woburnsafari.co.uk/globalassets/woburn-safari/2.-images/road-safari/reserves/zebra/grevys-zebra-grazes-with-ankole-cattle-at-woburn-safari-park.jpg?w=1024" alt ='Zebrinhas'>
+            
+        </div>
+        <h2>Zebrinhas e Girafinhas!!</h2>
+        <p> &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur qui vitae exercitationem officiis doloribus nisi ad cupiditate, sint necessitatibus iste vero enim quibusdam dolorum dolorem, delectus animi voluptates laudantium maiores.</p>
+
+
+    </main>
+</body>
+</html>

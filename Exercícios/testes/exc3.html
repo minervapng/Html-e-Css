@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java script 3</title>
+</head>
+<body>
+
+    <h1 id = "seuNome" class="centro"></h1>
+
+    <style>
+        body {
+            background-color: rgb(183, 118, 243);
+            color: rgb(81, 255, 0);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3em;
+            font-weight: 700;
+        }
+        a {
+            text-decoration: none;
+            color: crimson;
+        }
+        .centro {
+            text-align: center;
+        }
+        h1 {
+            color: rgb(0, 110, 255);   
+        }
+        h2 {
+            color: rgb(162, 221, 0);
+        }
+    </style>
+
+    <script>
+        var nome = window.prompt ('Digite seu nome?')
+        var idade = Number(window.prompt ('Digite sua idade?'))
+        var sexo = window.prompt ('Você é do gênero masculino ou feminino?')
+        var data_nascimento = 2024 - idade
+
+
+        window.alert (`Prazer ${nome}, você é do gênero ${sexo} e nasceu em ${data_nascimento}`)
+        document.write (`<h1 class = 'centro'>Bem vindo,  <a href="">${nome}</a> !!!</h1>`)
+        document.write (`<h1 class = 'centro'>Seu nome tem ${nome.length} letras</h1>`)
+        document.write(idade <= 0 || idade >= 100 ? 'Idade inválida' : (""));
+        
+        
+    </script>
+
+
+</body>
+</html>

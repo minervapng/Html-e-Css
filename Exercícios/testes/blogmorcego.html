@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs testes</title>
+</head>
+<body>
+    <header>
+        <img src="morcego.png" alt="imagem morcego" id="morcego_canto_superior_esquerdo">
+        <h1 class="title">BatBlogsCute</h1>
+        <p id="by">By Emilly</p>
+    </header>
+    <main>
+        <ul>
+            <h2 class="subtitle">Meu Blog</h2>
+            <li><a href="">Morcegos</a></li>
+            <li><a href="">Comprar</a></li>
+            <li><a href="">Doenças</a></li>
+            <li><a href="">BATMAN</a></li>
+            <li><a href="">Lojinha</a></li>
+        </ul>
+        <div class="diva">
+            <h1 class="tema">O motivo de eu amar morcegos</h1>
+
+        </div>
+
+    </main>
+
+    <style>
+        @font-face {
+            font-family:'love';
+            src: url('love_3/Love.ttf');
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #e98fce;
+
+            font-family: 'love';
+        }
+        ul {
+            list-style-type: circle;
+            width: 200px;
+            height: 752px;
+            box-shadow: 4px 0px 0px black;
+            margin: 0;
+            padding: 0;
+            padding-top: 10px;
+            background-color: #F0C1E2;
+        }
+        li {
+            text-align: left;
+            padding-left: 10px;
+            margin-top: 0
+        }
+        a {
+            font-family: 'love';
+            font-weight: 600;
+            color: black;
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px;
+        }
+        a:hover {
+            color: #EC74BA;
+            text-decoration: underline;
+        }
+        .title {
+            font-size: 2.3em;
+            font-family: 'love' ,'Arial', 'sans-serif';
+            display: flex;
+            align-items: center;
+        }
+        header {
+            display: flex;
+            flex-direction: row;
+            box-shadow: 0px 8px 20px black;
+            padding: 20px;
+            margin: 0px;
+            position: relative;
+            background-color: #721e4f;
+        }
+        #morcego_canto_superior_esquerdo {
+            width: 70px;
+            padding: 5px;
+        }
+        #byemilly {
+            display: flex;
+            font-size: large;
+            font-weight: 500;
+            justify-content: flex-end;
+            align-items: flex-end;
+            margin: 0;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            width: 1500px;
+        }
+        .subtitle {
+            text-decoration: underline;
+            padding: 10px;
+            text-align: left;
+            font-size: 2em;
+            
+        }
+        main {
+            display: flex;
+            flex-direction: row;
+        }
+        .tema {
+            text-align: center;
+            position: relative;
+            width: auto;
+            height: 30px;
+            padding: 20px;
+            margin: 30px;
+            background-color: #721e4f8f;
+            border-radius: 40px;
+            display: block;
+        }
+        .diva {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .text1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</body>
+</html>

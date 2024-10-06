@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            margin: 0;
+            font-family:Arial, Helvetica, sans-serif;
+            color: rgb(0, 0, 0);
+            margin: 0;
+        }
+        img {
+            width: 130px;
+            padding: 5px;
+            text-align: center;
+        }
+        .logo {
+            text-align: center;
+            background-color: #d3d3d3;
+            margin-bottom: 10px;
+        }
+        header {
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-family: Impact, sans-serif;
+            color: rgb(0, 0, 0);
+            font-weight: 800;
+            font-size: 2.9em;
+            text-align: center;
+            margin: 20px 0px 0px 0px;
+        }
+        nav {
+            background-color: #B0B0B0;
+            padding: 10px;
+        }
+        .itemnav {
+            padding: 13px 40px 13px 40px;
+            color: #000000;
+            text-decoration: none;
+            border-radius: 260px;
+            margin: 10px;
+            font-size: 1.3em;
+            font-weight: 100;
+        }
+
+        .itemnav:hover {
+            transition-delay: 0.0s;
+            background-color: #eeeded;
+        }
+        p {
+            text-align: center;
+            font-size: 1.4em;
+            margin: 5px;
+            padding: 4px 0px 4px 0px;
+        }
+
+        .video {
+            background-color: black;
+            color: rgb(255, 255, 255);
+            padding: 100px 100px 100px 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+        }
+        .video2 {
+            background-color: black;
+            color: rgb(255, 255, 255);
+            padding: 300px 100px 300px 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+        }
+        .text1 {
+            text-align: center;
+        }
+        button {
+            padding: 10px 40px 10px 40px;
+            margin: 20px 0px 50px 0px;
+            border-radius: 30px;
+            font-size: 1em;
+            font-weight: 600;
+            border: 1px solid black;
+            color: white;
+            background-color: black;
+        }
+        button:hover {
+            background-color: #9b9b9b;
+            border: 1px solid #9b9b9b;
+            color: rgb(255, 255, 255);
+        }
+        .classics {
+            display: flex;
+            justify-content: flex-start;
+            margin: 20px;
+        }
+        .divs {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 50px;
+            flex: 1 1 calc(33.33% - 20px); /* 3 por linha */
+            box-sizing: border-box;
+        }
+        .item {
+            height: 300px;
+            width: 300px;
+            background-color: black;
+            margin: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 2em;
+            flex-wrap: wrap;
+        }
+        footer {
+            background-color: #d3d3d3;
+            padding: 1px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .rodape {
+            text-align: center;
+            font-size: 0.9em;
+        }
+        a {
+            color: black;
+        }
+        .rodape:hover {
+            color: rgb(29, 29, 231);
+        }
+        @media (max-width: 768px) {
+            .item {
+                flex: 1 1 calc(50% - 20px); 
+            }
+        }
+
+        @media (max-width: 480px) {
+            .item {
+                flex: 1 1 100%; /* 1 por linha em telas muito pequenas */
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoner Boy | Store</title>
+    <link rel="shortcut icon" href="Stoner_Boy_logo_1-removebg-preview - Copia.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="logo"><img src="Stoner_Boy_logo_1-removebg-preview.png"></div>
+    <header>
+        <div class="canto">
+            <a href="" class="itemnav">Shoes</a>
+            <a href="" class="itemnav">Ofertas</a>
+            <a href="" class="itemnav">Contato</a>
+            <a href="" class="itemnav">Sobre</a>
+        </div>
+    </header>
+    <div class="video">Background Img Here</div>
+    <div class="text1">
+        <h1>ESTILO GARANTIDO</h1>
+        <p>Caçados clássicos & esportivos, tudo feito para vencedores, feito para você.</p>
+        <a href="index.html"><button type="button">Shoes</button></a>
+    </div>
+    <div class="video2">Background Img Here</div>
+    <div class="text1">
+        <h1>DIVERSAS MARCAS</h1>
+        <p>Diversas Marcas, desde Nike até Adidas & Oakley, mas um coisa <br>
+        é certa, aqui só temos as melhores</p>
+        <a href="index.html"><button type="button">Marcas</button></a>
+    </div>
+    <h1 class="classics">
+        Classics
+    </h1>
+    <div class="divs">
+        <div class="item">Nike Model</div>
+        <div class="item">Adidas Model</div>
+        <div class="item">Nike Model</div>
+        <div class="item">Adidas Model</div>
+
+
+    </div>
+    <footer>
+        <a href="">
+            <p class="rodape">Stoner Boy</p>
+        </a>
+        <a href="">
+            <p class="rodape">Sign Up</p>
+        </a>
+        <a href="">
+            <p class="rodape">Ajuda</p>
+        </a>
+
+
+    </footer>
+</body>
+</html>
